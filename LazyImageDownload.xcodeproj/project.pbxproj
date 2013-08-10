@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D475074B1719AA2200E8DE6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D475074A1719AA2200E8DE6E /* UIKit.framework */; };
+		D475074D1719AA2200E8DE6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D475074C1719AA2200E8DE6E /* Foundation.framework */; };
+		D475074F1719AA2200E8DE6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D475074E1719AA2200E8DE6E /* CoreGraphics.framework */; };
+		D47507551719AA2200E8DE6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D47507531719AA2200E8DE6E /* InfoPlist.strings */; };
+		D47507571719AA2200E8DE6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D47507561719AA2200E8DE6E /* main.m */; };
+		D475075B1719AA2200E8DE6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D475075A1719AA2200E8DE6E /* AppDelegate.m */; };
+		D475075D1719AA2200E8DE6E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D475075C1719AA2200E8DE6E /* Default.png */; };
+		D475075F1719AA2200E8DE6E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D475075E1719AA2200E8DE6E /* Default@2x.png */; };
+		D47507611719AA2200E8DE6E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D47507601719AA2200E8DE6E /* Default-568h@2x.png */; };
+		D475076F1719ACE900E8DE6E /* JPImageDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = D475076E1719ACE900E8DE6E /* JPImageDownload.m */; };
+		D47507721719ADDD00E8DE6E /* ImageDownlaodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D47507711719ADDD00E8DE6E /* ImageDownlaodViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D47507461719AA2200E8DE6E /* LazyImageDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazyImageDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D475074A1719AA2200E8DE6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D475074C1719AA2200E8DE6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D475074E1719AA2200E8DE6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D47507521719AA2200E8DE6E /* LazyImageDownload-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LazyImageDownload-Info.plist"; sourceTree = "<group>"; };
+		D47507541719AA2200E8DE6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D47507561719AA2200E8DE6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D47507581719AA2200E8DE6E /* LazyImageDownload-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LazyImageDownload-Prefix.pch"; sourceTree = "<group>"; };
+		D47507591719AA2200E8DE6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D475075A1719AA2200E8DE6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D475075C1719AA2200E8DE6E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D475075E1719AA2200E8DE6E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D47507601719AA2200E8DE6E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D475076D1719ACE900E8DE6E /* JPImageDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPImageDownload.h; sourceTree = "<group>"; };
+		D475076E1719ACE900E8DE6E /* JPImageDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPImageDownload.m; sourceTree = "<group>"; };
+		D47507701719ADDD00E8DE6E /* ImageDownlaodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDownlaodViewController.h; sourceTree = "<group>"; };
+		D47507711719ADDD00E8DE6E /* ImageDownlaodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDownlaodViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D47507431719AA2200E8DE6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D475074B1719AA2200E8DE6E /* UIKit.framework in Frameworks */,
+				D475074D1719AA2200E8DE6E /* Foundation.framework in Frameworks */,
+				D475074F1719AA2200E8DE6E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D475073B1719AA2200E8DE6E = {
+			isa = PBXGroup;
+			children = (
+				D47507701719ADDD00E8DE6E /* ImageDownlaodViewController.h */,
+				D47507711719ADDD00E8DE6E /* ImageDownlaodViewController.m */,
+				D475076D1719ACE900E8DE6E /* JPImageDownload.h */,
+				D475076E1719ACE900E8DE6E /* JPImageDownload.m */,
+				D47507501719AA2200E8DE6E /* LazyImageDownload */,
+				D47507491719AA2200E8DE6E /* Frameworks */,
+				D47507471719AA2200E8DE6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D47507471719AA2200E8DE6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D47507461719AA2200E8DE6E /* LazyImageDownload.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D47507491719AA2200E8DE6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D475074A1719AA2200E8DE6E /* UIKit.framework */,
+				D475074C1719AA2200E8DE6E /* Foundation.framework */,
+				D475074E1719AA2200E8DE6E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D47507501719AA2200E8DE6E /* LazyImageDownload */ = {
+			isa = PBXGroup;
+			children = (
+				D47507591719AA2200E8DE6E /* AppDelegate.h */,
+				D475075A1719AA2200E8DE6E /* AppDelegate.m */,
+				D47507511719AA2200E8DE6E /* Supporting Files */,
+			);
+			path = LazyImageDownload;
+			sourceTree = "<group>";
+		};
+		D47507511719AA2200E8DE6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D47507521719AA2200E8DE6E /* LazyImageDownload-Info.plist */,
+				D47507531719AA2200E8DE6E /* InfoPlist.strings */,
+				D47507561719AA2200E8DE6E /* main.m */,
+				D47507581719AA2200E8DE6E /* LazyImageDownload-Prefix.pch */,
+				D475075C1719AA2200E8DE6E /* Default.png */,
+				D475075E1719AA2200E8DE6E /* Default@2x.png */,
+				D47507601719AA2200E8DE6E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D47507451719AA2200E8DE6E /* LazyImageDownload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D475076A1719AA2200E8DE6E /* Build configuration list for PBXNativeTarget "LazyImageDownload" */;
+			buildPhases = (
+				D47507421719AA2200E8DE6E /* Sources */,
+				D47507431719AA2200E8DE6E /* Frameworks */,
+				D47507441719AA2200E8DE6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LazyImageDownload;
+			productName = LazyImageDownload;
+			productReference = D47507461719AA2200E8DE6E /* LazyImageDownload.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D475073D1719AA2200E8DE6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Jogi;
+			};
+			buildConfigurationList = D47507401719AA2200E8DE6E /* Build configuration list for PBXProject "LazyImageDownload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D475073B1719AA2200E8DE6E;
+			productRefGroup = D47507471719AA2200E8DE6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D47507451719AA2200E8DE6E /* LazyImageDownload */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D47507441719AA2200E8DE6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D47507551719AA2200E8DE6E /* InfoPlist.strings in Resources */,
+				D475075D1719AA2200E8DE6E /* Default.png in Resources */,
+				D475075F1719AA2200E8DE6E /* Default@2x.png in Resources */,
+				D47507611719AA2200E8DE6E /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D47507421719AA2200E8DE6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D47507571719AA2200E8DE6E /* main.m in Sources */,
+				D475075B1719AA2200E8DE6E /* AppDelegate.m in Sources */,
+				D475076F1719ACE900E8DE6E /* JPImageDownload.m in Sources */,
+				D47507721719ADDD00E8DE6E /* ImageDownlaodViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D47507531719AA2200E8DE6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D47507541719AA2200E8DE6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D47507681719AA2200E8DE6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D47507691719AA2200E8DE6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D475076B1719AA2200E8DE6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LazyImageDownload/LazyImageDownload-Prefix.pch";
+				INFOPLIST_FILE = "LazyImageDownload/LazyImageDownload-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D475076C1719AA2200E8DE6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LazyImageDownload/LazyImageDownload-Prefix.pch";
+				INFOPLIST_FILE = "LazyImageDownload/LazyImageDownload-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D47507401719AA2200E8DE6E /* Build configuration list for PBXProject "LazyImageDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D47507681719AA2200E8DE6E /* Debug */,
+				D47507691719AA2200E8DE6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D475076A1719AA2200E8DE6E /* Build configuration list for PBXNativeTarget "LazyImageDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D475076B1719AA2200E8DE6E /* Debug */,
+				D475076C1719AA2200E8DE6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D475073D1719AA2200E8DE6E /* Project object */;
+}
